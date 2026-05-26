@@ -1,18 +1,75 @@
-# Portafolio Profesional - Grey Uzcátegui
+# cv-grey
 
-Bienvenido a mi repositorio personal. Aquí se aloja mi portafolio profesional, diseñado para mostrar mi evolución como Ingeniero de Sistemas, Líder Técnico y Arquitecto de Software.
+Scaffolded with Vuetify CLI.
 
-## 🚀 Tecnologías
-Este sitio está siendo migrado a una arquitectura moderna:
-* **Frontend:** Vue 3 (Composition API)
-* **UI Framework:** Vuetify
-* **Despliegue:** GitHub Pages
+## ❗️ Documentation
 
-## 📂 Contenido
-* **CV Actualizado:** Disponible en la carpeta raíz (formatos .md y .docx).
-* **Portafolio:** Interfaz reactiva en construcción con Vue 3.
+- Primary docs: https://vuetifyjs.com/
+- Getting started guide: https://vuetifyjs.com/en/getting-started/installation/
+- Community support: https://community.vuetifyjs.com/
+- Issue tracker: https://issues.vuetifyjs.com/
 
-## ✉️ Contacto
-* **Email:** ing.greyuzcategui@gmail.com
-* **LinkedIn:** [linkedin.com/in/greyuzcategui](https://linkedin.com/in/greyuzcategui)
-* **Web:** [greyuzcategui.github.io](https://greyuzcategui.github.io)
+## 🧱 Stack
+
+- Framework: Vue 3 + Vite
+- UI Library: Vuetify
+- Language: TypeScript
+- Package manager: npm
+
+## 🧭 Start Here
+
+- Main entry: `src/main.ts`
+- Main app component: `src/App.vue`
+- Main styles: `src/styles/`
+- Plugin setup: `src/plugins/`
+
+## 📁 Project Structure
+
+- `src/main.ts` — application entry point
+- `src/App.vue` — root component
+- `src/components/` — reusable Vue components
+- `src/plugins/` — plugin registration and setup
+- `src/styles/` — global styles and theme settings
+- `public/` — static public files
+
+## ✨ Enabled Features
+
+- Base setup
+
+## 💿 Install
+
+Use your selected package manager (npm) to install dependencies:
+
+```bash
+npm install
+```
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+## 🏗️ Build
+
+```bash
+npm run build
+```
+
+## 🧪 Available Scripts
+
+- `npm run dev`
+- `npm run build`
+- `npm run preview`
+- `npm run build-only`
+- `npm run type-check`
+
+## 💪 Support Vuetify Development
+
+This project uses Vuetify - an MIT licensed Open Source project. We are glad to welcome contributors and any support for ongoing development:
+
+- Contribute to Vuetify and ecosystem projects: https://github.com/vuetifyjs
+- Request enterprise support: https://support.vuetifyjs.com/
+- Sponsor on GitHub: https://github.com/sponsors/vuetifyjs
+- Support on Open Collective: https://opencollective.com/vuetify

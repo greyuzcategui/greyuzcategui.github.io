@@ -43,12 +43,12 @@
       ></v-btn>
     </v-app-bar>
 
-    <v-main>
+    <v-main style="overflow-x: hidden;">
       <section id="home">
         <HeroSection @scroll-to="scrollTo" />
       </section>
 
-      <v-container>
+      <v-container :fluid="$vuetify.display.smAndDown">
         <section id="about" class="py-12">
           <AboutSection />
         </section>
@@ -73,7 +73,7 @@
       </v-container>
     </v-main>
 
-    <v-footer class="bg-grey-darken-4 text-white text-center d-flex flex-column py-6">
+    <v-footer class="bg-grey-darken-4 text-white text-center d-flex flex-column py-6 w-100">
       <div class="mb-4">
         <v-btn v-for="icon in icons" :key="icon" :icon="icon" class="mx-4" variant="text"></v-btn>
       </div>
@@ -112,6 +112,18 @@
 </script>
 
 <style>
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#app {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
 section {
   scroll-margin-top: 64px;
 }

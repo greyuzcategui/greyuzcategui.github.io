@@ -2,7 +2,7 @@
   <div>
     <h3 class="text-h4 font-weight-bold mb-10 text-center">Contacto</h3>
     
-    <v-row>
+    <v-row class="ma-0">
       <!-- Información de contacto -->
       <v-col cols="12" md="5">
         <h4 class="text-h5 font-weight-bold mb-6">¿Tienes un proyecto en mente?</h4>
@@ -40,7 +40,7 @@
       <v-col cols="12" md="7">
         <v-card class="pa-6 elevation-4 rounded-xl">
           <v-form v-model="valid" @submit.prevent="submitForm">
-            <v-row>
+            <v-row class="ma-0">
               <v-col cols="12" sm="6">
                 <v-text-field
                   v-model="formData.name"

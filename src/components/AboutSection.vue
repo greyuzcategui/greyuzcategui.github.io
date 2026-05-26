@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row class="ma-0">
     <v-col cols="12" md="4">
       <v-card variant="flat" class="bg-grey-lighten-4 pa-4 rounded-lg">
         <h3 class="text-h5 font-weight-bold mb-4 text-primary">Datos Personales</h3>

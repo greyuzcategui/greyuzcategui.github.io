@@ -2,7 +2,7 @@
   <div>
     <h3 class="text-h4 font-weight-bold mb-10 text-center">Conocimientos Técnicos</h3>
     
-    <v-row>
+    <v-row class="ma-0">
       <v-col v-for="category in skillCategories" :key="category.title" cols="12" md="6" lg="4">
         <v-card variant="outlined" class="pa-6 h-100 border-grey-lighten-2">
           <div class="d-flex align-center mb-4">

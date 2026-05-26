@@ -30,15 +30,12 @@ jobs:
         with:
           node-version: 24
           cache: 'npm'
-          cache-dependency-path: cv-grey/package-lock.json
 
       - name: Install dependencies
         run: npm install
-        working-directory: cv-grey
 
       - name: Build
         run: npm run build
-        working-directory: cv-grey
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -46,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './cv-grey/dist'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
