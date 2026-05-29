@@ -171,6 +171,22 @@
       "aiLlm": "AI & LLMs Knowledge"
     }
   },
+  "courses": {
+    "title": "Courses & Certifications",
+    "list": {
+      "pwa": "PWA FOUNDATIONS. OPEN WEBINARS. 2020",
+      "docker_intro": "INTRODUCTION TO DOCKER. OPEN WEBINARS. 2020",
+      "vue": "VUE.JS COURSE. OPEN WEBINARS. 2020",
+      "docker_adv": "DOCKER FROM 0 TO DEPLOYMENT. Codely TV Pro. 2019",
+      "java8": "JAVA 8 FROM SCRATCH. OPEN WEBINARS. 2019",
+      "marketing": "DIGITAL MARKETING, CONTENT AND COMMUNITY MANAGER. EDX. 2018",
+      "asterisk": "ADVANCED ASTERISK. CGTS Corp. 2014",
+      "automation": "INTRODUCTION TO AUTOMATED SYSTEMS. Sena Virtual. 2012",
+      "ccna": "CCNA EXPLORATION 4.0. Cisco Montalván. 2011",
+      "telecom": "TELECOMMUNICATIONS SYSTEMS. INCES. 2010",
+      "ibm": "SOFTWARE DEVELOPERS PROGRAM. IBM. 2009"
+    }
+  },
   "contact": {
     "title": "Contact",
     "subtitle": "Have a project in mind?",
