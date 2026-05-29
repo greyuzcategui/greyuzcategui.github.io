@@ -12,7 +12,8 @@
     "description": "Soy un ingeniero de sistemas dedicado al diseño y desarrollo de soluciones tecnológicas. Mi enfoque se basa en crear relaciones <strong>ganar-ganar</strong> a través de la innovación y la excelencia técnica.",
     "contactBtn": "Contáctame",
     "resumeBtn": "Mi CV Resumen",
-    "extendedBtn": "Mi CV Extendido"
+    "extendedBtn": "Mi CV Extendido",
+    "scheduleBtn": "Agendar Reunión"
   },
   "about": {
     "personalData": "Datos Personales",
@@ -22,6 +23,10 @@
     "birthVal": "06 Noviembre 1987",
     "email": "Email",
     "web": "Web",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "calendly": "Calendly (Reunión)",
     "profile": "Perfil Profesional",
     "profileDesc": "Ingeniero de Sistemas con 15 años de trayectoria en el desarrollo de aplicaciones web (Frontend y Backend). Durante los últimos 3 años, he evolucionado hacia roles de <strong>liderazgo técnico y arquitectura</strong>, asumiendo responsabilidades en la formación de equipos, diseño de soluciones escalables, gestión de requerimientos (PMO) y administración de infraestructura (DevOps).",
     "fullstack": "Desarrollo Fullstack",

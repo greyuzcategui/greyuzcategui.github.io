@@ -12,7 +12,8 @@
     "description": "I am a systems engineer dedicated to the design and development of technological solutions. My focus is based on creating <strong>win-win</strong> relationships through innovation and technical excellence.",
     "contactBtn": "Contact me",
     "resumeBtn": "My CV Resume",
-    "extendedBtn": "My CV Extended"
+    "extendedBtn": "My CV Extended",
+    "scheduleBtn": "Schedule a Meeting"
   },
   "about": {
     "personalData": "Personal Data",
@@ -22,6 +23,10 @@
     "birthVal": "November 06, 1987",
     "email": "Email",
     "web": "Web",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "calendly": "Calendly (Meeting)",
     "profile": "Professional Profile",
     "profileDesc": "Systems Engineer with 15 years of experience in web application development (Frontend and Backend). During the last 3 years, I have evolved into <strong>technical leadership and architecture</strong> roles, assuming responsibilities in team building, scalable solution design, requirements management (PMO), and infrastructure administration (DevOps).",
     "fullstack": "Fullstack Development",

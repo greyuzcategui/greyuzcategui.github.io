@@ -18,7 +18,7 @@
     </v-navigation-drawer>
 
     <!-- Barra de Navegación -->
-    <v-app-bar flat class="px-md-10" color="white" elevation="1">
+    <v-app-bar flat class="px-md-10" elevation="1">
       <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
       
       <v-toolbar-title class="font-weight-bold text-primary">
@@ -67,32 +67,32 @@
         <HeroSection @scroll-to="scrollTo" />
       </section>
 
-      <v-container :fluid="$vuetify.display.smAndDown">
-        <section id="about" class="py-12">
+      <section id="about" class="py-16 bg-surface">
+        <v-container :fluid="$vuetify.display.smAndDown">
           <AboutSection />
-        </section>
+        </v-container>
+      </section>
 
-        <v-divider></v-divider>
-
-        <section id="resume" class="py-12">
+      <section id="resume" class="py-16 bg-background">
+        <v-container :fluid="$vuetify.display.smAndDown">
           <ResumeSection />
-        </section>
+        </v-container>
+      </section>
 
-        <v-divider></v-divider>
-
-        <section id="skills" class="py-12">
+      <section id="skills" class="py-16 bg-surface">
+        <v-container :fluid="$vuetify.display.smAndDown">
           <SkillsSection />
-        </section>
+        </v-container>
+      </section>
 
-        <v-divider></v-divider>
-
-        <section id="contact" class="py-12">
+      <section id="contact" class="py-16 bg-background">
+        <v-container :fluid="$vuetify.display.smAndDown">
           <ContactSection />
-        </section>
-      </v-container>
+        </v-container>
+      </section>
     </v-main>
 
-    <v-footer class="bg-grey-darken-4 text-white text-center d-flex flex-column py-6 w-100">
+    <v-footer class="text-center d-flex flex-column py-8 w-100" elevation="1" border="t">
       <div class="mb-4">
         <v-btn
           v-for="social in socialLinks"
@@ -102,10 +102,11 @@
           target="_blank"
           class="mx-4"
           variant="text"
+          color="primary"
         ></v-btn>
       </div>
-      <v-divider class="mb-4" color="white"></v-divider>
-      <div>
+      <v-divider class="mb-6 w-50 mx-auto"></v-divider>
+      <div class="text-body-2 font-weight-medium text-grey-darken-1">
         {{ new Date().getFullYear() }} — <strong>Ing. Grey Uzcátegui</strong>
       </div>
     </v-footer>
@@ -126,8 +127,8 @@
   const drawer = ref(false)
   const socialLinks = [
     { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/ing-grey-uzcategui/' },
-    { icon: 'mdi-github', link: 'https://github.com/greyuzcategui' },
-    { icon: 'mdi-twitter', link: 'https://twitter.com/greyuzcategui' },
+    { icon: 'mdi-whatsapp', link: 'https://wa.me/584126008196' },
+    { icon: 'mdi-send', link: 'https://t.me/greyuzcategui' },
     { icon: 'mdi-email', link: 'mailto:ing.greyuzcategui@gmail.com' }
   ]
 
