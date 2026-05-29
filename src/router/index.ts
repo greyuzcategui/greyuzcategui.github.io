@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ExtendedResumeView from '../views/ExtendedResumeView.vue'
+import TechnicalSkillsView from '../views/TechnicalSkillsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/extended-resume',
       name: 'extended-resume',
       component: ExtendedResumeView
+    },
+    {
+      path: '/technical-skills',
+      name: 'technical-skills',
+      component: TechnicalSkillsView
     }
   ],
   scrollBehavior(to, from, savedPosition) {

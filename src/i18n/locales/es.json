@@ -157,13 +157,18 @@
   },
   "skills": {
     "title": "Conocimientos Técnicos",
+    "extendedTitle": "Experticia Técnica Detallada",
+    "extendedSubtitle": "Desglose completo de herramientas, frameworks y metodologías extraído de mi trayectoria profesional.",
+    "viewMore": "Ver más conocimientos",
     "categories": {
-      "backend": "Backend",
-      "frontend": "Frontend & Mobile",
+      "softwareEngineering": "Ingeniería de Software",
+      "clientSide": "Lenguajes del Lado del Cliente",
+      "serverSide": "Lenguajes del Lado del SerVIDOR",
       "databases": "Bases de Datos",
-      "architecture": "Arquitectura & DevOps",
-      "ai": "Inteligencia Artificial",
-      "others": "Metodologías & Otros"
+      "specificExperience": "Experiencia Específica",
+      "otherTools": "Otras Herramientas",
+      "osServers": "Sistemas Operativos y Servidores",
+      "aiLlm": "Conocimientos en IA y LLMs"
     }
   },
   "contact": {

@@ -157,13 +157,18 @@
   },
   "skills": {
     "title": "Technical Knowledge",
+    "extendedTitle": "Detailed Technical Expertise",
+    "extendedSubtitle": "Complete breakdown of tools, frameworks, and methodologies extracted from my professional career.",
+    "viewMore": "View more skills",
     "categories": {
-      "backend": "Backend",
-      "frontend": "Frontend & Mobile",
+      "softwareEngineering": "Software Engineering",
+      "clientSide": "Client-Side Languages",
+      "serverSide": "Server-Side Languages",
       "databases": "Databases",
-      "architecture": "Architecture & DevOps",
-      "ai": "Artificial Intelligence",
-      "others": "Methodologies & Others"
+      "specificExperience": "Specific Experience",
+      "otherTools": "Other Tools",
+      "osServers": "Operating Systems & Servers",
+      "aiLlm": "AI & LLMs Knowledge"
     }
   },
   "contact": {

@@ -25,6 +25,17 @@
         </v-card>
       </v-col>
     </v-row>
+
+    <div class="text-center mt-12">
+      <v-btn
+        color="primary"
+        variant="outlined"
+        prepend-icon="mdi-plus"
+        @click="$router.push({ name: 'technical-skills' })"
+      >
+        {{ $t('skills.viewMore') }}
+      </v-btn>
+    </div>
   </div>
 </template>
 
