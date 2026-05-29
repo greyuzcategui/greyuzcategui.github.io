@@ -88,6 +88,17 @@
       </v-timeline-item>
     </v-timeline>
 
+    <div class="text-center mt-8">
+      <v-btn
+        color="primary"
+        variant="outlined"
+        prepend-icon="mdi-plus"
+        @click="$router.push({ name: 'extended-resume' })"
+      >
+        {{ $t('resume.viewMore') }}
+      </v-btn>
+    </div>
+
     <v-divider class="my-12"></v-divider>
 
     <!-- Educación -->

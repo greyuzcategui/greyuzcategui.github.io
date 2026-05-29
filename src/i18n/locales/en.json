@@ -4,7 +4,8 @@
     "about": "About",
     "resume": "Resume",
     "skills": "Skills",
-    "contact": "Contact"
+    "contact": "Contact",
+    "back": "Back"
   },
   "hero": {
     "title": "Grey Uzcátegui",
@@ -40,6 +41,9 @@
   },
   "resume": {
     "title": "Professional Trajectory",
+    "extendedTitle": "Extended Professional History",
+    "viewMore": "View more history",
+    "viewDetails": "View details",
     "educationTitle": "Education",
     "present": "Present",
     "jobs": {
@@ -62,6 +66,78 @@
         "role": "Web Systems Engineer / Leader",
         "company": "Kiwisoftware RL",
         "desc": "Project formulation, time estimations, and fullstack development under Free Software (PHP/Laravel)."
+      }
+    },
+    "allJobsList": {
+      "uzmar": {
+        "role": "Project Leader and Web Developer",
+        "period": "2025 - Present",
+        "company": "Uzmar / Comexport Case",
+        "shortDesc": "Leadership of the design and development of a logistics information system for Comexport.",
+        "longDesc": "<ul><li>Leadership in the design and development of an information system for Comexport (air, sea, and customs import/export).</li><li>Direct requirement gathering, defining stages: quotation, reservation, shipping, and liquidation.</li><li>Training students in web development best practices.</li><li>Deployment in 3 environments: Dev, QA, and Prod using Laravel 11, Vue.js, Vuetify, and MySQL.</li></ul>"
+      },
+      "telemetria": {
+        "role": "Developer and DevOps (Freelance)",
+        "period": "2025",
+        "company": "Lagunas Telemetry Project",
+        "shortDesc": "Maintenance and optimization of GPS telemetry system for cleaning boats.",
+        "longDesc": "<ul><li>Support and optimization of legacy system for real-time GPS positioning.</li><li>Complete application migration from Heroku to dockerized infrastructure on AWS (EC2, RDS).</li><li>Technologies: Ruby on Rails, Redis, PostgreSQL.</li></ul>"
+      },
+      "tone": {
+        "role": "Senior Fullstack Developer (Freelance)",
+        "period": "2024",
+        "company": "T-One / IBM Sterling Project",
+        "shortDesc": "Automation and dynamic workflows for IBM Sterling.",
+        "longDesc": "<ul><li>Incorporation of workflows, business rules, and user roles.</li><li>Development of diagram tools in frontend for easy workflow configuration.</li><li>Technologies: React.js, Spring Boot, Ionic, IBM DB2, and PostgreSQL.</li></ul>"
+      },
+      "fuerza": {
+        "role": "Senior Fullstack Developer (Freelance)",
+        "period": "2024",
+        "company": "Sales Force Project (Chile)",
+        "shortDesc": "Migration and development of mobile app for cemetery sales force.",
+        "longDesc": "<ul><li>Migration of operational applications and development from scratch of sales mobile app.</li><li>Prospect prioritization logic (Lead Scoring) and contract flows.</li><li>Technologies: Java Spring Boot, React.js, Ionic, Oracle SQL.</li></ul>"
+      },
+      "sondeos": {
+        "role": "Senior Developer",
+        "period": "2019 - Present",
+        "company": "Sondeos (ATX, Argentina)",
+        "shortDesc": "Development in Multichannel product and microservices integration.",
+        "longDesc": "<ul><li>Development of functionalities in Multichannel core (WhatsApp, FB, IG).</li><li>Migration of monolithic architecture to microservices with Java Spring Boot.</li><li>Implementation of distributed messaging with Apache Kafka.</li><li>Optimization of mass SMS pre-processing.</li></ul>"
+      },
+      "kiwi_software": {
+        "role": "Web Systems Engineer",
+        "period": "2017-2019",
+        "company": "Kiwisoftware RL",
+        "shortDesc": "Project leader in systems under Free Software.",
+        "longDesc": "<ul><li>Formulation and estimation of web projects.</li><li>Development with Laravel, Codeigniter, and PostgreSQL.</li><li>Team leadership and deployment under Linux Ubuntu.</li></ul>"
+      },
+      "epk": {
+        "role": "Senior Developer",
+        "period": "2016-2017",
+        "company": "EPK - Los Principitos Group",
+        "shortDesc": "Online store management and clothing collection design systems.",
+        "longDesc": "<ul><li>Maintenance of website and sales support catalog management systems.</li><li>Development with PHP, MySQL, and Codeigniter.</li></ul>"
+      },
+      "rialfi": {
+        "role": "Development Consultant",
+        "period": "2013-2015",
+        "company": "Rialfi Consulting",
+        "shortDesc": "Call Center and budget management systems.",
+        "longDesc": "<ul><li>Information gathering and architecture design for Call Center systems.</li><li>Development with Yii, Laravel, and Asterisk.</li><li>Systems developed: budgets, collection call center management, and electrical incidents.</li></ul>"
+      },
+      "desarrollos_compus": {
+        "role": "Programmer",
+        "period": "2012-2013",
+        "company": "Desarrollos Compus",
+        "shortDesc": "Specialized support and CRM development.",
+        "longDesc": "<ul><li>Specialized programming support for existing applications.</li><li>Collaboration in development from scratch of CRM and sales force systems.</li><li>Technologies: Native PHP, MySQL, PostgreSQL, Symfony.</li></ul>"
+      },
+      "ine": {
+        "role": "Web Services and Applications Analyst",
+        "period": "2011",
+        "company": "National Statistics Institute (INE)",
+        "shortDesc": "XIV National Population and Housing Census Project.",
+        "longDesc": "<ul><li>Research and installation of management software.</li><li>Development of mass ID card printing module for the 2011 National Census.</li><li>Technologies: EZPublish, PostgreSQL, PHP.</li></ul>"
       }
     },
     "education": {

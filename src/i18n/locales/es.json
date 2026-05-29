@@ -4,7 +4,8 @@
     "about": "Sobre mí",
     "resume": "Resumen",
     "skills": "Habilidades",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "back": "Volver"
   },
   "hero": {
     "title": "Grey Uzcátegui",
@@ -40,6 +41,9 @@
   },
   "resume": {
     "title": "Trayectoria Profesional",
+    "extendedTitle": "Historial Profesional Extendido",
+    "viewMore": "Ver más trayectoria",
+    "viewDetails": "Ver detalles",
     "educationTitle": "Educación",
     "present": "Presente",
     "jobs": {
@@ -62,6 +66,78 @@
         "role": "Ingeniero de Sistemas Web / Líder",
         "company": "Kiwisoftware RL",
         "desc": "Formulación de proyectos, estimaciones de tiempos y desarrollo fullstack bajo Software Libre (PHP/Laravel)."
+      }
+    },
+    "allJobsList": {
+      "uzmar": {
+        "role": "Líder de Proyecto y Desarrollador Web",
+        "period": "2025 - Presente",
+        "company": "Uzmar / Caso Comexport",
+        "shortDesc": "Liderazgo del diseño y desarrollo de un sistema de información logística para Comexport.",
+        "longDesc": "<ul><li>Liderazgo en el diseño y desarrollo de un sistema de información para Comexport (importación/exportación aérea, naviera y aduanal).</li><li>Captación de requerimientos directos, definiendo etapas: cotización, reserva, embarque y liquidación.</li><li>Capacitación de estudiantes en buenas prácticas de desarrollo web.</li><li>Despliegue en 3 ambientes: Dev, QA y Prod utilizando Laravel 11, Vue.js, Vuetify y MySQL.</li></ul>"
+      },
+      "telemetria": {
+        "role": "Desarrollador y DevOps (Freelance)",
+        "period": "2025",
+        "company": "Proyecto Telemetría Lagunas",
+        "shortDesc": "Mantenimiento y optimización de sistema de telemetría GPS para botes limpiadores.",
+        "longDesc": "<ul><li>Soporte y optimización de sistema legacy para posicionamiento GPS en tiempo real.</li><li>Migración completa de la aplicación de Heroku a infraestructura dockerizada en AWS (EC2, RDS).</li><li>Tecnologías: Ruby on Rails, Redis, PostgreSQL.</li></ul>"
+      },
+      "tone": {
+        "role": "Desarrollador Senior Fullstack (Freelance)",
+        "period": "2024",
+        "company": "Proyecto T-One / IBM Sterling",
+        "shortDesc": "Automatización y workflows dinámicos para IBM Sterling.",
+        "longDesc": "<ul><li>Incorporación de workflows, reglas de negocio y roles de usuario.</li><li>Desarrollo de herramientas de diagramas en frontend para configuración fácil de flujos.</li><li>Tecnologías: React.js, Spring Boot, Ionic, IBM DB2 y PostgreSQL.</li></ul>"
+      },
+      "fuerza": {
+        "role": "Desarrollador Senior Fullstack (Freelance)",
+        "period": "2024",
+        "company": "Proyecto Fuerza de Ventas (Chile)",
+        "shortDesc": "Migración y desarrollo de app móvil para fuerza de ventas de cementerios.",
+        "longDesc": "<ul><li>Migración de aplicaciones operativas y desarrollo desde cero de app móvil para ventas.</li><li>Lógica de priorización de prospectos (Lead Scoring) y flujos de contratos.</li><li>Tecnologías: Java Spring Boot, React.js, Ionic, Oracle SQL.</li></ul>"
+      },
+      "sondeos": {
+        "role": "Desarrollador Senior",
+        "period": "2019 - Presente",
+        "company": "Sondeos (ATX, Argentina)",
+        "shortDesc": "Desarrollo en producto Multichannel e integración de microservicios.",
+        "longDesc": "<ul><li>Desarrollo de funcionalidades en núcleo Multichannel (WhatsApp, FB, IG).</li><li>Migración de arquitectura monolítica a microservicios con Java Spring Boot.</li><li>Implementación de mensajería distribuida con Apache Kafka.</li><li>Optimización de pre-procesamiento de SMS masivos.</li></ul>"
+      },
+      "kiwi_software": {
+        "role": "Ingeniero de Sistemas Web",
+        "period": "2017-2019",
+        "company": "Kiwisoftware RL",
+        "shortDesc": "Líder de proyecto en sistemas bajo Software Libre.",
+        "longDesc": "<ul><li>Formulación y estimación de proyectos web.</li><li>Desarrollo con Laravel, Codeigniter y PostgreSQL.</li><li>Liderazgo de equipos y despliegue bajo Linux Ubuntu.</li></ul>"
+      },
+      "epk": {
+        "role": "Desarrollador Sr",
+        "period": "2016-2017",
+        "company": "EPK - Grupo los principitos",
+        "shortDesc": "Gestión de tienda online y sistemas de diseño de colección.",
+        "longDesc": "<ul><li>Mantenimiento de website y sistemas de gestión de catálogo de ventas.</li><li>Desarrollo con PHP, MySQL y Codeigniter.</li></ul>"
+      },
+      "rialfi": {
+        "role": "Consultor de Desarrollo",
+        "period": "2013-2015",
+        "company": "Rialfi Consulting",
+        "shortDesc": "Sistemas de gestión de Call Center y presupuestos.",
+        "longDesc": "<ul><li>Levantamiento de información y diseño de arquitectura para sistemas de Call Center.</li><li>Desarrollo con Yii, Laravel y Asterisk.</li><li>Sistemas desarrollados: presupuestos, gestión de call center de cobranza e incidencias eléctricas.</li></ul>"
+      },
+      "desarrollos_compus": {
+        "role": "Programador",
+        "period": "2012-2013",
+        "company": "Desarrollos Compus",
+        "shortDesc": "Soporte especializado y desarrollo de CRM.",
+        "longDesc": "<ul><li>Soporte especializado en programación a aplicaciones existentes.</li><li>Colaboración en desarrollo desde cero de CRM y sistemas de fuerza de ventas.</li><li>Tecnologías: PHP Nativo, MySQL, PostgreSQL, Symfony.</li></ul>"
+      },
+      "ine": {
+        "role": "Analista de Servicios y Aplicaciones Web",
+        "period": "2011",
+        "company": "Instituto Nacional de Estadística (INE)",
+        "shortDesc": "Proyecto XIV Censo Nacional de Población y Vivienda.",
+        "longDesc": "<ul><li>Investigación e instalación de software de gestión.</li><li>Desarrollo de módulo de impresión de carnets masivo para el Censo Nacional 2011.</li><li>Tecnologías: EZPublish, PostgreSQL, PHP.</li></ul>"
       }
     },
     "education": {

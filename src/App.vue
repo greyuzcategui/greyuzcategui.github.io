@@ -63,33 +63,7 @@
     </v-app-bar>
 
     <v-main style="overflow-x: hidden;">
-      <section id="home">
-        <HeroSection @scroll-to="scrollTo" />
-      </section>
-
-      <section id="about" class="py-16 bg-surface">
-        <v-container :fluid="$vuetify.display.smAndDown">
-          <AboutSection />
-        </v-container>
-      </section>
-
-      <section id="resume" class="py-16 bg-background">
-        <v-container :fluid="$vuetify.display.smAndDown">
-          <ResumeSection />
-        </v-container>
-      </section>
-
-      <section id="skills" class="py-16 bg-surface">
-        <v-container :fluid="$vuetify.display.smAndDown">
-          <SkillsSection />
-        </v-container>
-      </section>
-
-      <section id="contact" class="py-16 bg-background">
-        <v-container :fluid="$vuetify.display.smAndDown">
-          <ContactSection />
-        </v-container>
-      </section>
+      <router-view />
     </v-main>
 
     <v-footer class="text-center d-flex flex-column py-8 w-100" elevation="1" border="t">
@@ -114,16 +88,14 @@
 </template>
 
 <script lang="ts" setup>
-  import { ref } from 'vue'
+  import { ref, watch } from 'vue'
   import { useTheme } from 'vuetify'
+  import { useRoute, useRouter } from 'vue-router'
   import i18n from '@/plugins/i18n'
-  import HeroSection from '@/components/HeroSection.vue'
-  import AboutSection from '@/components/AboutSection.vue'
-  import ResumeSection from '@/components/ResumeSection.vue'
-  import SkillsSection from '@/components/SkillsSection.vue'
-  import ContactSection from '@/components/ContactSection.vue'
 
   const theme = useTheme()
+  const route = useRoute()
+  const router = useRouter()
   const drawer = ref(false)
   const socialLinks = [
     { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/ing-grey-uzcategui/' },
@@ -140,13 +112,22 @@
     i18n.global.locale.value = lang
   }
 
-  function scrollTo(id: string) {
-    const element = document.getElementById(id)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-      drawer.value = false
+  async function scrollTo(id: string) {
+    drawer.value = false
+
+    if (route.name !== 'home') {
+      await router.push({ name: 'home' })
+      // Pequeña espera para asegurar que el DOM se cargó
+      setTimeout(() => {
+        const element = document.getElementById(id)
+        if (element) element.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+    } else {
+      const element = document.getElementById(id)
+      if (element) element.scrollIntoView({ behavior: 'smooth' })
     }
   }
+
 </script>
 
 <style>
