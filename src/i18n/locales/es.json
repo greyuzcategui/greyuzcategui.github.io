@@ -187,6 +187,66 @@
       "ibm": "PROGRAMA DESARROLLADORES DE SOFTWARE. IBM. 2009"
     }
   },
+  "portfolio": {
+    "title": "Portafolio de Proyectos",
+    "subtitle": "Una selección de soluciones tecnológicas donde he aportado valor como arquitecto y desarrollador.",
+    "extendedTitle": "Casos de Éxito y Proyectos",
+    "extendedSubtitle": "Desglose detallado de retos técnicos superados. Debido a acuerdos de confidencialidad, algunos proyectos se presentan como casos de estudio sin revelar nombres de clientes específicos.",
+    "viewMore": "Ver portafolio completo",
+    "viewCase": "Ver Caso de Estudio",
+    "caseStudy": "Caso de Estudio",
+    "challenge": "El Reto",
+    "solution": "La Solución",
+    "featured": [
+      {
+        "title": "ERP Logístico Comexport",
+        "tech": "Laravel 11 • Vue.js • MySQL",
+        "desc": "Sistema integral de importación/exportación gestionando todo el ciclo de aduanas y embarques."
+      },
+      {
+        "title": "Telemetría GPS en Tiempo Real",
+        "tech": "Ruby on Rails • AWS • Redis",
+        "desc": "Migración y optimización de infraestructura para monitoreo satelital de agentes de limpieza."
+      },
+      {
+        "title": "Núcleo Multichannel SMS/WhatsApp",
+        "tech": "Java Spring Boot • Kafka • Microservicios",
+        "desc": "Arquitectura escalable para el pre-procesamiento masivo de mensajes y flujos de Chatbots."
+      }
+    ],
+    "all": [
+      {
+        "title": "Sistema de Gestión de Importaciones",
+        "challenge": "Necesidad de centralizar procesos manuales de aduana y cotizaciones internacionales.",
+        "solution": "Diseño de arquitectura Laravel con estados de flujo de trabajo dinámicos y reportes automáticos."
+      },
+      {
+        "title": "Migración Cloud IoT",
+        "challenge": "Infraestructura legacy en Heroku con problemas de latencia en la recepción de puntos GPS.",
+        "solution": "Dockerización y despliegue en AWS EC2 con Redis para manejo de colas de alta velocidad."
+      },
+      {
+        "title": "Motor de Workflows Bancarios",
+        "challenge": "Automatización de reglas de negocio complejas para aprobaciones de seguros.",
+        "solution": "Integración de IBM Sterling con un frontend reactivo en React.js para diagramación visual."
+      },
+      {
+        "title": "App Fuerza de Ventas",
+        "challenge": "Optimización del tiempo de los vendedores en calle y seguimiento de prospectos.",
+        "solution": "Desarrollo de App móvil con Ionic y lógica de Lead Scoring priorizando cierres de venta."
+      },
+      {
+        "title": "Microservicio de Mensajería Masiva",
+        "challenge": "Procesamiento lento de lotes de SMS afectando la entrega en tiempo real.",
+        "solution": "Implementación de arquitectura orientada a eventos con Kafka y Spring Boot, logrando sub-segundos en procesamiento."
+      },
+      {
+        "title": "Sistema de CRM Educativo",
+        "challenge": "Falta de control en inventarios de cursos y registros de estudiantes.",
+        "solution": "Desarrollo de módulo administrativo robusto bajo PHP Zend Framework y gestión de base de datos relacional."
+      }
+    ]
+  },
   "contact": {
     "title": "Contacto",
     "subtitle": "¿Tienes un proyecto en mente?",

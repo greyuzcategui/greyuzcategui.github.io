@@ -187,6 +187,66 @@
       "ibm": "SOFTWARE DEVELOPERS PROGRAM. IBM. 2009"
     }
   },
+  "portfolio": {
+    "title": "Project Portfolio",
+    "subtitle": "A selection of technological solutions where I have added value as an architect and developer.",
+    "extendedTitle": "Success Stories & Projects",
+    "extendedSubtitle": "Detailed breakdown of technical challenges overcome. Due to NDAs, some projects are presented as case studies without revealing specific client names.",
+    "viewMore": "View full portfolio",
+    "viewCase": "View Case Study",
+    "caseStudy": "Case Study",
+    "challenge": "The Challenge",
+    "solution": "The Solution",
+    "featured": [
+      {
+        "title": "Comexport Logistics ERP",
+        "tech": "Laravel 11 • Vue.js • MySQL",
+        "desc": "Comprehensive import/export system managing the entire customs and shipping cycle."
+      },
+      {
+        "title": "Real-Time GPS Telemetry",
+        "tech": "Ruby on Rails • AWS • Redis",
+        "desc": "Infrastructure migration and optimization for satellite monitoring of cleaning agents."
+      },
+      {
+        "title": "SMS/WhatsApp Multichannel Core",
+        "tech": "Java Spring Boot • Kafka • Microservices",
+        "desc": "Scalable architecture for mass message pre-processing and Chatbot flows."
+      }
+    ],
+    "all": [
+      {
+        "title": "Import Management System",
+        "challenge": "Need to centralize manual customs processes and international quotations.",
+        "solution": "Laravel architecture design with dynamic workflow states and automatic reports."
+      },
+      {
+        "title": "IoT Cloud Migration",
+        "challenge": "Legacy infrastructure on Heroku with latency issues in receiving GPS points.",
+        "solution": "Dockerization and deployment on AWS EC2 with Redis for high-speed queue management."
+      },
+      {
+        "title": "Banking Workflow Engine",
+        "challenge": "Automation of complex business rules for insurance approvals.",
+        "solution": "Integration of IBM Sterling with a reactive React.js frontend for visual diagramming."
+      },
+      {
+        "title": "Sales Force App",
+        "challenge": "Optimizing sales reps' time in the field and lead tracking.",
+        "solution": "Mobile App development with Ionic and Lead Scoring logic prioritizing sales closings."
+      },
+      {
+        "title": "Mass Messaging Microservice",
+        "challenge": "Slow processing of SMS batches affecting real-time delivery.",
+        "solution": "Implementation of event-driven architecture with Kafka and Spring Boot, achieving sub-second processing."
+      },
+      {
+        "title": "Educational CRM System",
+        "challenge": "Lack of control in course inventories and student records.",
+        "solution": "Development of a robust administrative module under PHP Zend Framework and relational database management."
+      }
+    ]
+  },
   "contact": {
     "title": "Contact",
     "subtitle": "Have a project in mind?",

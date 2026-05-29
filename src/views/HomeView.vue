@@ -10,25 +10,31 @@
       </v-container>
     </section>
 
-    <section id="resume" class="py-16 bg-background">
+    <section id="portfolio-preview" class="py-16 bg-background">
+      <v-container :fluid="$vuetify.display.smAndDown">
+        <ProjectsSection />
+      </v-container>
+    </section>
+
+    <section id="resume" class="py-16 bg-surface">
       <v-container :fluid="$vuetify.display.smAndDown">
         <ResumeSection />
       </v-container>
     </section>
 
-    <section id="skills" class="py-16 bg-surface">
+    <section id="skills" class="py-16 bg-background">
       <v-container :fluid="$vuetify.display.smAndDown">
         <SkillsSection />
       </v-container>
     </section>
 
-    <section id="courses" class="py-16 bg-background">
+    <section id="courses" class="py-16 bg-surface">
       <v-container :fluid="$vuetify.display.smAndDown">
         <CoursesSection />
       </v-container>
     </section>
 
-    <section id="contact" class="py-16 bg-surface">
+    <section id="contact" class="py-16 bg-background">
       <v-container :fluid="$vuetify.display.smAndDown">
         <ContactSection />
       </v-container>
@@ -39,6 +45,7 @@
 <script setup lang="ts">
 import HeroSection from '@/components/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
+import ProjectsSection from '@/components/ProjectsSection.vue'
 import ResumeSection from '@/components/ResumeSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
 import CoursesSection from '@/components/CoursesSection.vue'
