@@ -1,20 +1,18 @@
 <template>
   <div>
-    <h3 class="text-h4 font-weight-bold mb-10 text-center">Contacto</h3>
+    <h3 class="text-h4 font-weight-bold mb-10 text-center">{{ $t('contact.title') }}</h3>
     
     <v-row class="ma-0">
       <!-- Información de contacto -->
       <v-col cols="12" md="5">
-        <h4 class="text-h5 font-weight-bold mb-6">¿Tienes un proyecto en mente?</h4>
-        <p class="text-body-1 mb-8">
-          Estoy disponible para consultorías, desarrollo de proyectos a medida o para formar parte de equipos innovadores. 
-          Hablemos y creemos una relación <strong>ganar-ganar</strong>.
+        <h4 class="text-h5 font-weight-bold mb-6">{{ $t('contact.subtitle') }}</h4>
+        <p class="text-body-1 mb-8" v-html="$t('contact.description')">
         </p>
 
         <v-list bg-color="transparent">
           <v-list-item
             prepend-icon="mdi-email-outline"
-            title="Email"
+            :title="$t('contact.labels.email')"
             subtitle="ing.greyuzcategui@gmail.com"
             class="mb-4"
           ></v-list-item>
@@ -22,16 +20,16 @@
           <v-list-item
             prepend-icon="mdi-linkedin"
             title="LinkedIn"
-            subtitle="linkedin.com/in/greyuzcategui"
-            href="https://linkedin.com/in/greyuzcategui"
+            subtitle="linkedin.com/in/ing-grey-uzcategui/"
+            href="https://www.linkedin.com/in/ing-grey-uzcategui/"
             target="_blank"
             class="mb-4"
           ></v-list-item>
 
           <v-list-item
             prepend-icon="mdi-map-marker-outline"
-            title="Ubicación"
-            subtitle="Caracas, Venezuela"
+            :title="$t('contact.labels.location')"
+            :subtitle="$t('about.locationVal')"
           ></v-list-item>
         </v-list>
       </v-col>
@@ -44,7 +42,7 @@
               <v-col cols="12" sm="6">
                 <v-text-field
                   v-model="formData.name"
-                  label="Nombre"
+                  :label="$t('contact.form.name')"
                   variant="outlined"
                   hide-details="auto"
                   required
@@ -53,7 +51,7 @@
               <v-col cols="12" sm="6">
                 <v-text-field
                   v-model="formData.email"
-                  label="Email"
+                  :label="$t('contact.form.email')"
                   variant="outlined"
                   hide-details="auto"
                   required
@@ -63,7 +61,7 @@
               <v-col cols="12">
                 <v-text-field
                   v-model="formData.subject"
-                  label="Asunto"
+                  :label="$t('contact.form.subject')"
                   variant="outlined"
                   hide-details="auto"
                 ></v-text-field>
@@ -71,7 +69,7 @@
               <v-col cols="12">
                 <v-textarea
                   v-model="formData.message"
-                  label="Mensaje"
+                  :label="$t('contact.form.message')"
                   variant="outlined"
                   rows="4"
                   hide-details="auto"
@@ -87,7 +85,7 @@
                   type="submit"
                   :disabled="!valid"
                 >
-                  Enviar Mensaje
+                  {{ $t('contact.form.submit') }}
                 </v-btn>
               </v-col>
             </v-row>
@@ -100,7 +98,9 @@
 
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const valid = ref(false)
 const formData = reactive({
   name: '',
@@ -111,6 +111,6 @@ const formData = reactive({
 
 const submitForm = () => {
   // Aquí iría la lógica para enviar el formulario (ej: Formspree, EmailJS o tu propio backend)
-  alert('Gracias por tu mensaje. Esta es una demostración, el formulario no está conectado actualmente.')
+  alert(t('contact.form.demoAlert'))
 }
 </script>

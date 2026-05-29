@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "resume": "Resumen",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Grey Uzcátegui",
+    "subtitle": "Ingeniero de Sistemas | Líder Técnico | Arquitecto de Software",
+    "description": "Soy un ingeniero de sistemas dedicado al diseño y desarrollo de soluciones tecnológicas. Mi enfoque se basa en crear relaciones <strong>ganar-ganar</strong> a través de la innovación y la excelencia técnica.",
+    "contactBtn": "Contáctame",
+    "resumeBtn": "Mi CV Resumen",
+    "extendedBtn": "Mi CV Extendido"
+  },
+  "about": {
+    "personalData": "Datos Personales",
+    "location": "Ubicación",
+    "locationVal": "Caracas, Venezuela",
+    "birth": "Nacimiento",
+    "birthVal": "06 Noviembre 1987",
+    "email": "Email",
+    "web": "Web",
+    "profile": "Perfil Profesional",
+    "profileDesc": "Ingeniero de Sistemas con 15 años de trayectoria en el desarrollo de aplicaciones web (Frontend y Backend). Durante los últimos 3 años, he evolucionado hacia roles de <strong>liderazgo técnico y arquitectura</strong>, asumiendo responsabilidades en la formación de equipos, diseño de soluciones escalables, gestión de requerimientos (PMO) y administración de infraestructura (DevOps).",
+    "fullstack": "Desarrollo Fullstack",
+    "fullstackDesc": "Diseño y construcción de aplicaciones robustas con Java, PHP, Groovy, Vue.js y React.",
+    "leadership": "Liderazgo Técnico",
+    "leadershipDesc": "Formación de talentos, mentoría de desarrolladores y gestión ágil de proyectos.",
+    "architecture": "Arquitectura & Cloud",
+    "architectureDesc": "Diseño de sistemas distribuidos, microservicios y despliegue en entornos Cloud.",
+    "ai": "IA & Optimización",
+    "aiDesc": "Implementación de soluciones guiadas por IA y LLMs para optimizar procesos de negocio."
+  },
+  "resume": {
+    "title": "Trayectoria Profesional",
+    "educationTitle": "Educación",
+    "present": "Presente",
+    "jobs": {
+      "uzmar": {
+        "role": "Líder de Proyecto & Arquitecto de Software",
+        "company": "Agencia Uzmar / Caso Comexport",
+        "desc": "Liderazgo de célula de desarrollo para plataforma ERP/CRM logística de misión crítica. Arquitectura completa del sistema (Laravel 11, Vue.js, MySQL) y mentoría técnica de desarrolladores."
+      },
+      "freelance": {
+        "role": "Consultor Senior Fullstack & DevOps",
+        "company": "Clientes Internacionales",
+        "desc": "Migración de infraestructuras IoT a AWS/Docker, implementación de motores de workflows visuales en React y desarrollo de aplicaciones móviles híbridas con Ionic."
+      },
+      "sondeos": {
+        "role": "Desarrollador Backend / Fullstack Senior",
+        "company": "Sondeos (ATX, Arg)",
+        "desc": "Evolución de monolitos hacia microservicios con Java/Spring Boot y arquitecturas orientadas a eventos con Apache Kafka. Optimización de mensajería masiva y desarrollo Core Multichannel."
+      },
+      "kiwi": {
+        "role": "Ingeniero de Sistemas Web / Líder",
+        "company": "Kiwisoftware RL",
+        "desc": "Formulación de proyectos, estimaciones de tiempos y desarrollo fullstack bajo Software Libre (PHP/Laravel)."
+      }
+    },
+    "education": {
+      "master": {
+        "title": "Maestría en Ingeniería de Sistemas (Mención Control)",
+        "school": "Universidad Simón Bolívar | 2013 - 2015"
+      },
+      "degree": {
+        "title": "Ingeniero de Sistemas",
+        "school": "UNEXPO Luis Caballero Mejías | 2004 - 2010"
+      },
+      "ai": {
+        "title": "Especialización en IA y LLMs",
+        "school": "Formación continua en workflows guiados por IA"
+      }
+    }
+  },
+  "skills": {
+    "title": "Conocimientos Técnicos",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend & Mobile",
+      "databases": "Bases de Datos",
+      "architecture": "Arquitectura & DevOps",
+      "ai": "Inteligencia Artificial",
+      "others": "Metodologías & Otros"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente?",
+    "description": "Estoy disponible para consultorías, desarrollo de proyectos a medida o para formar parte de equipos innovadores. Hablemos y creemos una relación <strong>ganar-ganar</strong>.",
+    "labels": {
+      "email": "Email",
+      "location": "Ubicación"
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "demoAlert": "Gracias por tu mensaje. Esta es una demostración, el formulario no está conectado actualmente."
+    }
+  }
+}

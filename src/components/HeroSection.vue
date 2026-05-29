@@ -8,15 +8,12 @@
             alt="Grey Uzcátegui"
           ></v-img>
         </v-avatar>
-        <h1 class="text-h4 text-md-h2 font-weight-bold mb-2 text-primary">Grey Uzcátegui</h1>
+        <h1 class="text-h4 text-md-h2 font-weight-bold mb-2 text-primary">{{ $t('hero.title') }}</h1>
         <h2 class="text-body-1 text-md-h5 font-weight-light mb-6 text-grey-darken-1">
-          Ingeniero de Sistemas | Líder Técnico | Arquitecto de Software
+          {{ $t('hero.subtitle') }}
         </h2>
         
-        <p class="text-body-2 text-md-body-1 mb-8 mx-auto" style="max-width: 700px">
-          Soy un ingeniero de sistemas dedicado al diseño y desarrollo de soluciones tecnológicas. 
-          Mi enfoque se basa en crear relaciones <strong>ganar-ganar</strong> a través de la innovación 
-          y la excelencia técnica.
+        <p class="text-body-2 text-md-body-1 mb-8 mx-auto" style="max-width: 700px" v-html="$t('hero.description')">
         </p>
 
         <div class="d-flex flex-column flex-sm-row justify-center align-center">
@@ -27,7 +24,20 @@
             class="mb-4 mb-sm-0 mr-sm-4 px-8 w-100 w-sm-auto"
             @click="$emit('scroll-to', 'contact')"
           >
-            Contáctame
+            {{ $t('hero.contactBtn') }}
+          </v-btn>
+
+          <v-btn
+            variant="outlined"
+            color="primary"
+            size="large"
+            prepend-icon="mdi-download"
+            class="mb-4 mb-sm-0 mr-sm-4 px-8 w-100 w-sm-auto"
+            href="/cv-grey-uzcategui-resume-2026.pdf"
+            target="_blank"
+            download
+          >
+            {{ $t('hero.resumeBtn') }}
           </v-btn>
 
           <v-btn
@@ -36,11 +46,11 @@
             size="large"
             prepend-icon="mdi-download"
             class="px-8 w-100 w-sm-auto"
-            href="/cv_grey_uzcategui_2026.pdf"
+            href="/cv-grey-uzcategui-extended-2026.pdf"
             target="_blank"
             download
           >
-            Descargar CV
+            {{ $t('hero.extendedBtn') }}
           </v-btn>
         </div>
       </v-col>
@@ -49,6 +59,9 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 defineEmits(['scroll-to'])
 </script>
 

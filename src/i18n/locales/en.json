@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Grey Uzcátegui",
+    "subtitle": "Systems Engineer | Tech Lead | Software Architect",
+    "description": "I am a systems engineer dedicated to the design and development of technological solutions. My focus is based on creating <strong>win-win</strong> relationships through innovation and technical excellence.",
+    "contactBtn": "Contact me",
+    "resumeBtn": "My CV Resume",
+    "extendedBtn": "My CV Extended"
+  },
+  "about": {
+    "personalData": "Personal Data",
+    "location": "Location",
+    "locationVal": "Caracas, Venezuela",
+    "birth": "Birth",
+    "birthVal": "November 06, 1987",
+    "email": "Email",
+    "web": "Web",
+    "profile": "Professional Profile",
+    "profileDesc": "Systems Engineer with 15 years of experience in web application development (Frontend and Backend). During the last 3 years, I have evolved into <strong>technical leadership and architecture</strong> roles, assuming responsibilities in team building, scalable solution design, requirements management (PMO), and infrastructure administration (DevOps).",
+    "fullstack": "Fullstack Development",
+    "fullstackDesc": "Design and construction of robust applications with Java, PHP, Groovy, Vue.js, and React.",
+    "leadership": "Technical Leadership",
+    "leadershipDesc": "Talent training, developer mentoring, and agile project management.",
+    "architecture": "Architecture & Cloud",
+    "architectureDesc": "Design of distributed systems, microservices, and deployment in Cloud environments.",
+    "ai": "AI & Optimization",
+    "aiDesc": "Implementation of AI and LLM-guided solutions to optimize business processes."
+  },
+  "resume": {
+    "title": "Professional Trajectory",
+    "educationTitle": "Education",
+    "present": "Present",
+    "jobs": {
+      "uzmar": {
+        "role": "Project Leader & Software Architect",
+        "company": "Uzmar Agency / Comexport Case",
+        "desc": "Development cell leadership for mission-critical logistics ERP/CRM platform. Complete system architecture (Laravel 11, Vue.js, MySQL) and technical mentoring of developers."
+      },
+      "freelance": {
+        "role": "Senior Fullstack & DevOps Consultant",
+        "company": "International Clients",
+        "desc": "Migration of IoT infrastructures to AWS/Docker, implementation of visual workflow engines in React, and development of hybrid mobile applications with Ionic."
+      },
+      "sondeos": {
+        "role": "Senior Backend / Fullstack Developer",
+        "company": "Sondeos (ATX, Arg)",
+        "desc": "Evolution from monoliths to microservices with Java/Spring Boot and event-driven architectures with Apache Kafka. Mass messaging optimization and Multichannel Core development."
+      },
+      "kiwi": {
+        "role": "Web Systems Engineer / Leader",
+        "company": "Kiwisoftware RL",
+        "desc": "Project formulation, time estimations, and fullstack development under Free Software (PHP/Laravel)."
+      }
+    },
+    "education": {
+      "master": {
+        "title": "Master in Systems Engineering (Control Mention)",
+        "school": "Simón Bolívar University | 2013 - 2015"
+      },
+      "degree": {
+        "title": "Systems Engineer",
+        "school": "UNEXPO Luis Caballero Mejías | 2004 - 2010"
+      },
+      "ai": {
+        "title": "AI and LLMs Specialization",
+        "school": "Continuous training in AI-guided workflows"
+      }
+    }
+  },
+  "skills": {
+    "title": "Technical Knowledge",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend & Mobile",
+      "databases": "Databases",
+      "architecture": "Architecture & DevOps",
+      "ai": "Artificial Intelligence",
+      "others": "Methodologies & Others"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind?",
+    "description": "I am available for consulting, custom project development, or to be part of innovative teams. Let's talk and create a <strong>win-win</strong> relationship.",
+    "labels": {
+      "email": "Email",
+      "location": "Location"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "demoAlert": "Thank you for your message. This is a demo, the form is not currently connected."
+    }
+  }
+}
