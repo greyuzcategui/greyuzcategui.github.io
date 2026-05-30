@@ -1,12 +1,11 @@
 <template>
   <v-container class="py-12">
-    <!-- Botón Volver superior -->
     <v-btn
       variant="text"
       prepend-icon="mdi-arrow-left"
       color="primary"
       class="mb-8"
-      @click="$router.push({ name: 'home' })"
+      @click="$emit('scroll-to', 'skills')"
     >
       {{ $t('nav.back') }}
     </v-btn>
@@ -66,7 +65,7 @@
         size="large"
         color="primary"
         prepend-icon="mdi-arrow-left"
-        @click="$router.push({ name: 'home' })"
+        @click="$emit('scroll-to', 'skills')"
       >
         {{ $t('nav.back') }}
       </v-btn>
@@ -77,6 +76,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 
+defineEmits(['scroll-to'])
 const { t } = useI18n()
 
 // Estructura sincronizada exactamente con el documento CV Extendido

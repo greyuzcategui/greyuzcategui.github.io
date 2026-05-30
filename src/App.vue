@@ -63,7 +63,7 @@
     </v-app-bar>
 
     <v-main style="overflow-x: hidden;">
-      <router-view />
+      <router-view @scroll-to="scrollTo" />
     </v-main>
 
     <v-footer class="text-center d-flex flex-column py-8 w-100" elevation="1" border="t">
@@ -117,17 +117,20 @@
 
     if (route.name !== 'home') {
       await router.push({ name: 'home' })
-      // Pequeña espera para asegurar que el DOM se cargó
+      // Esperamos un poco más para que la página cargue y el elemento exista
       setTimeout(() => {
         const element = document.getElementById(id)
-        if (element) element.scrollIntoView({ behavior: 'smooth' })
-      }, 100)
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      }, 300)
     } else {
       const element = document.getElementById(id)
-      if (element) element.scrollIntoView({ behavior: 'smooth' })
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
     }
   }
-
 </script>
 
 <style>

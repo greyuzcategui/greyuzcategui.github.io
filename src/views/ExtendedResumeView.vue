@@ -5,7 +5,7 @@
       prepend-icon="mdi-arrow-left"
       color="primary"
       class="mb-8"
-      @click="$router.push({ name: 'home' })"
+      @click="$emit('scroll-to', 'resume')"
     >
       {{ $t('nav.back') }}
     </v-btn>
@@ -46,7 +46,7 @@
         size="large"
         color="primary"
         prepend-icon="mdi-arrow-left"
-        @click="$router.push({ name: 'home' })"
+        @click="$emit('scroll-to', 'resume')"
       >
         {{ $t('nav.back') }}
       </v-btn>
@@ -78,6 +78,7 @@
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+defineEmits(['scroll-to'])
 const { t, tm, rt } = useI18n()
 const dialog = ref(false)
 const selectedJob = ref<any>(null)
